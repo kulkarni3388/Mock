@@ -1,0 +1,21 @@
+package Javafinalmock;
+
+public class T2 {
+	
+	public static int getlinecount(String text) {
+		return text.split("\n").length;
+	}
+
+	public static void main(String[] args) {
+		
+		String s="Hi\nmadhu\nHow\nare\nyou";
+						
+		System.out.println(s);
+		int count = getlinecount(s);
+		System.out.println(count);
+		
+		
+
+	}
+
+}
